@@ -479,3 +479,8 @@ $(function () {
         }
     }).trigger("resize");
 })(jQuery);
+
+// Delai de disparition de messages
+setTimeout(function (){
+    $('#message').fadeOut('slow');
+}, 4000)
