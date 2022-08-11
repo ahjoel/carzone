@@ -2,8 +2,6 @@ from django.contrib import messages
 from django.contrib.auth.models import User
 from django.core.mail import send_mail
 from django.shortcuts import render, redirect
-
-# Create your views here.
 from contacts.models import Contact
 
 
