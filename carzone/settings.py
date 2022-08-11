@@ -25,7 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '5bac$6958tj8jj+bjmiupq181s^ejz-oeq0o!0hixci4nedodm'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['pure-island-62320.herokuapp.com', 'micadjcarzone.co', 'www.micadjcarzone.co', 'localhost', '127.0.0.1']
 
@@ -171,3 +171,9 @@ EMAIL_USE_TLS = True
 
 # Whitenoise
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+
+STATICFILES_FINDERS=[
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+
+]
