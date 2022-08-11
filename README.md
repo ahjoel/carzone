@@ -21,7 +21,7 @@ Live Demo can be viewed [at this test site.](https://pure-island-62320.herokuapp
 # Download & Setup Instructions
 1 - Clone project: git clone https://github.com/ahjoel/carzone
 
-2 - cd proshop_django
+2 - cd carzone
 
 3 - Create virtual environment: virtualenv myenv
 
