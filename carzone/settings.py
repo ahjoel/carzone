@@ -27,7 +27,7 @@ SECRET_KEY = '5bac$6958tj8jj+bjmiupq181s^ejz-oeq0o!0hixci4nedodm'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://pure-island-62320.herokuapp.com', 'micadjcarzone.co', 'www.micadjcarzone.co']
 
 
 # Application definition
